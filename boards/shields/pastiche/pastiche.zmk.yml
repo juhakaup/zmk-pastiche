@@ -1,0 +1,10 @@
+file_format: "1"
+id: pastiche
+name: Pastiche
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - pastiche

@@ -1,0 +1,6 @@
+if SHIELD_PASTICHE
+
+config ZMK_KEYBOARD_NAME
+    default "Pastiche"
+
+endif
