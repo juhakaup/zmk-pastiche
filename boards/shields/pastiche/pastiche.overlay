@@ -30,15 +30,15 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)     RC(3,6) RC(3,7) RC(3,8) RC(3
         wakeup-source;
 
         col-gpios
-        = <&pro_micro 1 GPIO_ACTIVE_HIGH> // col1 in the schematic
+        = <&pro_micro 0 GPIO_ACTIVE_HIGH> // col1 in the schematic
         , <&pro_micro 2 GPIO_ACTIVE_HIGH> // col2 in the schematic
         , <&pro_micro 3 GPIO_ACTIVE_HIGH> // col3 in the schematic
         , <&pro_micro 4 GPIO_ACTIVE_HIGH> // col4 in the schematic
         , <&pro_micro 5 GPIO_ACTIVE_HIGH> // col5 in the schematic
-        , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col6 in the schematic
-        , <&pro_micro 13 GPIO_ACTIVE_HIGH> // col7 in the schematic
-        , <&pro_micro 12 GPIO_ACTIVE_HIGH> // col8 in the schematic
-        , <&pro_micro 11 GPIO_ACTIVE_HIGH> // col9 in the schematic
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH> // col6 in the schematic
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col7 in the schematic
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH> // col8 in the schematic
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col9 in the schematic
         , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col10 in the schematic
         ;
 
